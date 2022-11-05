@@ -32,7 +32,7 @@ const UserContext = ({ children }) => {
 
   //---google login--
   const googleProvider = new GoogleAuthProvider();
-  //---github login---
+  //---github login--
   const githubProvider = new GithubAuthProvider();
 
   const [user, setUser] = useState({});
