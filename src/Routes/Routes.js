@@ -56,6 +56,7 @@ export const routes = createBrowserRouter([
             <SelectCourse></SelectCourse>
           </PrivateRoute>
         ),
+        //vercel api setup
         loader: ({ params }) =>
           fetch(
             `https://b610-lerning-platform-server-side-ismailahammed1.vercel.app/language/${params.id}`
