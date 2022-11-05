@@ -30,7 +30,7 @@ const UserContext = ({ children }) => {
       .then((data) => setCategories(data));
   }, []);
 
-  //---google login---
+  //---google login--
   const googleProvider = new GoogleAuthProvider();
   //---github login---
   const githubProvider = new GithubAuthProvider();
