@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../../Contexts/useContext";
 
 const Leftsaidnav = () => {
+  //side nav create and api link setup
   const { categories } = useContext(AuthContext);
 
   return (
