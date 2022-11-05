@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+//404 page create and add
 const ErrorPage = () => {
   return (
     <section className="flex items-center h-screen p-16 bg-gray-100 text-gray-900">
